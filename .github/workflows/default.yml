@@ -51,7 +51,7 @@ jobs:
           node-version: 20
 
       - name: Run semantic-release
-        if: github.repository == 'casbin/casbin-ucon' && github.event_name == 'push'
+#        if: github.repository == 'casbin/casbin-ucon' && github.event_name == 'push'
         run: make release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
