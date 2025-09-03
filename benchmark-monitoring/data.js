@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1756876433374,
+  "lastUpdate": 1756877786301,
   "repoUrl": "https://github.com/bugoutianzhen123/casbin-ucon",
   "entries": {
     "Benchmark": [
@@ -32,6 +32,54 @@ window.BENCHMARK_DATA = {
           {
             "name": "BenchmarkPlaceholder - ns/op",
             "value": 0.3137,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPlaceholder - B/op",
+            "value": 0,
+            "unit": "B/op",
+            "extra": "1000000000 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPlaceholder - allocs/op",
+            "value": 0,
+            "unit": "allocs/op",
+            "extra": "1000000000 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "2804366305@qq.com",
+            "name": "bugoutianzhen123",
+            "username": "bugoutianzhen123"
+          },
+          "committer": {
+            "email": "2804366305@qq.com",
+            "name": "bugoutianzhen123",
+            "username": "bugoutianzhen123"
+          },
+          "distinct": true,
+          "id": "7f68e20193d94bb764d9f9593212a2faed5804ed",
+          "message": "ci: improve CI configuration",
+          "timestamp": "2025-09-03T13:35:17+08:00",
+          "tree_id": "3b8c154ffd67d2310636bce90377d12c33082334",
+          "url": "https://github.com/bugoutianzhen123/casbin-ucon/commit/7f68e20193d94bb764d9f9593212a2faed5804ed"
+        },
+        "date": 1756877785853,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkPlaceholder",
+            "value": 0.3115,
+            "unit": "ns/op\t       0 B/op\t       0 allocs/op",
+            "extra": "1000000000 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPlaceholder - ns/op",
+            "value": 0.3115,
             "unit": "ns/op",
             "extra": "1000000000 times\n4 procs"
           },
