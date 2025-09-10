@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757487442701,
+  "lastUpdate": 1757487732565,
   "repoUrl": "https://github.com/bugoutianzhen123/casbin-ucon",
   "entries": {
     "Benchmark": [
@@ -464,6 +464,54 @@ window.BENCHMARK_DATA = {
           {
             "name": "BenchmarkPlaceholder - ns/op",
             "value": 0.3124,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPlaceholder - B/op",
+            "value": 0,
+            "unit": "B/op",
+            "extra": "1000000000 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPlaceholder - allocs/op",
+            "value": 0,
+            "unit": "allocs/op",
+            "extra": "1000000000 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "2804366305@qq.com",
+            "name": "bugoutianzhen123",
+            "username": "bugoutianzhen123"
+          },
+          "committer": {
+            "email": "2804366305@qq.com",
+            "name": "bugoutianzhen123",
+            "username": "bugoutianzhen123"
+          },
+          "distinct": true,
+          "id": "e043fdc917abac7bc46f8715170965fc57fd151e",
+          "message": "feat: improve session manager and update README to highlight continuous authorization",
+          "timestamp": "2025-09-10T15:01:35+08:00",
+          "tree_id": "d7d655a0bc4b23137020fd43c93a4f162d6e30c2",
+          "url": "https://github.com/bugoutianzhen123/casbin-ucon/commit/e043fdc917abac7bc46f8715170965fc57fd151e"
+        },
+        "date": 1757487731677,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkPlaceholder",
+            "value": 0.3116,
+            "unit": "ns/op\t       0 B/op\t       0 allocs/op",
+            "extra": "1000000000 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPlaceholder - ns/op",
+            "value": 0.3116,
             "unit": "ns/op",
             "extra": "1000000000 times\n4 procs"
           },
