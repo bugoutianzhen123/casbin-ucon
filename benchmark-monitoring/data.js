@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757587456277,
+  "lastUpdate": 1757588331985,
   "repoUrl": "https://github.com/bugoutianzhen123/casbin-ucon",
   "entries": {
     "Benchmark": [
@@ -848,6 +848,54 @@ window.BENCHMARK_DATA = {
           {
             "name": "BenchmarkPlaceholder - ns/op",
             "value": 0.3121,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPlaceholder - B/op",
+            "value": 0,
+            "unit": "B/op",
+            "extra": "1000000000 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPlaceholder - allocs/op",
+            "value": 0,
+            "unit": "allocs/op",
+            "extra": "1000000000 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "2804366305@qq.com",
+            "name": "bugoutianzhen123",
+            "username": "bugoutianzhen123"
+          },
+          "committer": {
+            "email": "2804366305@qq.com",
+            "name": "bugoutianzhen123",
+            "username": "bugoutianzhen123"
+          },
+          "distinct": true,
+          "id": "54ad9ad8f52f3626158e42814247085f582b89a7",
+          "message": "feat: add session manager and update README",
+          "timestamp": "2025-09-11T18:58:17+08:00",
+          "tree_id": "cebdfd19cf481ced27881c879ba6e39e57a05a0b",
+          "url": "https://github.com/bugoutianzhen123/casbin-ucon/commit/54ad9ad8f52f3626158e42814247085f582b89a7"
+        },
+        "date": 1757588331662,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkPlaceholder",
+            "value": 0.3115,
+            "unit": "ns/op\t       0 B/op\t       0 allocs/op",
+            "extra": "1000000000 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPlaceholder - ns/op",
+            "value": 0.3115,
             "unit": "ns/op",
             "extra": "1000000000 times\n4 procs"
           },
