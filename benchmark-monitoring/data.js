@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757489708183,
+  "lastUpdate": 1757587456277,
   "repoUrl": "https://github.com/bugoutianzhen123/casbin-ucon",
   "entries": {
     "Benchmark": [
@@ -789,6 +789,54 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/bugoutianzhen123/casbin-ucon/commit/221bd07e4f6aa519363328752891399be476dba0"
         },
         "date": 1757489707651,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkPlaceholder",
+            "value": 0.3121,
+            "unit": "ns/op\t       0 B/op\t       0 allocs/op",
+            "extra": "1000000000 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPlaceholder - ns/op",
+            "value": 0.3121,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPlaceholder - B/op",
+            "value": 0,
+            "unit": "B/op",
+            "extra": "1000000000 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPlaceholder - allocs/op",
+            "value": 0,
+            "unit": "allocs/op",
+            "extra": "1000000000 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "2804366305@qq.com",
+            "name": "bugoutianzhen123",
+            "username": "bugoutianzhen123"
+          },
+          "committer": {
+            "email": "2804366305@qq.com",
+            "name": "bugoutianzhen123",
+            "username": "bugoutianzhen123"
+          },
+          "distinct": true,
+          "id": "67e920a9fd93670971758bb58d300a2fa7439211",
+          "message": "feat: add session manager and update README",
+          "timestamp": "2025-09-11T18:43:33+08:00",
+          "tree_id": "11e9d9fb00b5b3ec22ff1b22602d46a54adaeed9",
+          "url": "https://github.com/bugoutianzhen123/casbin-ucon/commit/67e920a9fd93670971758bb58d300a2fa7439211"
+        },
+        "date": 1757587455877,
         "tool": "go",
         "benches": [
           {
