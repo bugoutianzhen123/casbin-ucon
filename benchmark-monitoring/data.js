@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757834781314,
+  "lastUpdate": 1757834784791,
   "repoUrl": "https://github.com/bugoutianzhen123/casbin-ucon",
   "entries": {
     "Benchmark": [
@@ -1040,6 +1040,54 @@ window.BENCHMARK_DATA = {
           {
             "name": "BenchmarkPlaceholder - ns/op",
             "value": 0.3115,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPlaceholder - B/op",
+            "value": 0,
+            "unit": "B/op",
+            "extra": "1000000000 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPlaceholder - allocs/op",
+            "value": 0,
+            "unit": "allocs/op",
+            "extra": "1000000000 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "hsluoyz@gmail.com",
+            "name": "Yang Luo",
+            "username": "hsluoyz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "819d5fec6b25a90eda88e629392517b6b06df238",
+          "message": "Update ucon_enforcer_test.go\n\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2025-09-14T15:25:49+08:00",
+          "tree_id": "d531f920935ef6c7d0e3033b971411d1f7763950",
+          "url": "https://github.com/bugoutianzhen123/casbin-ucon/commit/819d5fec6b25a90eda88e629392517b6b06df238"
+        },
+        "date": 1757834783882,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkPlaceholder",
+            "value": 0.3113,
+            "unit": "ns/op\t       0 B/op\t       0 allocs/op",
+            "extra": "1000000000 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPlaceholder - ns/op",
+            "value": 0.3113,
             "unit": "ns/op",
             "extra": "1000000000 times\n4 procs"
           },
