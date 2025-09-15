@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757902987160,
+  "lastUpdate": 1757902995174,
   "repoUrl": "https://github.com/bugoutianzhen123/casbin-ucon",
   "entries": {
     "Benchmark": [
@@ -1136,6 +1136,54 @@ window.BENCHMARK_DATA = {
           {
             "name": "BenchmarkPlaceholder - ns/op",
             "value": 0.3115,
+            "unit": "ns/op",
+            "extra": "1000000000 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPlaceholder - B/op",
+            "value": 0,
+            "unit": "B/op",
+            "extra": "1000000000 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPlaceholder - allocs/op",
+            "value": 0,
+            "unit": "allocs/op",
+            "extra": "1000000000 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "148350506+bugoutianzhen123@users.noreply.github.com",
+            "name": "Zhendong Liu",
+            "username": "bugoutianzhen123"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b5acea8b959109d1b3a9667e7c43bc058ae4eabe",
+          "message": "Update README.md\n\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2025-09-15T10:22:57+08:00",
+          "tree_id": "37c30fea122f99bbad92299d8c18acf6c974f026",
+          "url": "https://github.com/bugoutianzhen123/casbin-ucon/commit/b5acea8b959109d1b3a9667e7c43bc058ae4eabe"
+        },
+        "date": 1757902994660,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkPlaceholder",
+            "value": 0.3125,
+            "unit": "ns/op\t       0 B/op\t       0 allocs/op",
+            "extra": "1000000000 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPlaceholder - ns/op",
+            "value": 0.3125,
             "unit": "ns/op",
             "extra": "1000000000 times\n4 procs"
           },
